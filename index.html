@@ -1,77 +1,290 @@
-<html>
-<head> 
-  <body style="background-color: black;">
-<h1><center><span style="color: rgb(124, 2, 246);">HELLO ANIME</span></center></h1>
-    <p>
-       <script>
-        alert("welcome to anime world")
-       </script>
-    </p>
-    
-      <h1><samp style="color: rgb(113, 0, 219);"><center>ANIME</center></samp></h1>
-    <p style="font-family: 'Times New Roman', Times, serif;"><samp style="font-size: large;"><samp style="color: rgba(220, 109, 12, 0.877);">Anime is animation that originates from Japan. Outside of Japan, the word "anime" typically refers to Japanese animation specifically, while in Japan, the term (a shortening of the English word "animation") refers to all animated works, regardless of origin. Anime is a diverse medium encompassing a wide range of genres, styles, and target audiences, from children to adults. 
-Key Aspects of Anime</samp></samp></p>
-<p style="color: rgb(220, 109, 12, 0.877);"><samp style="font-size: large;"><samp style="font-family: 'Times New Roman', Times, serif;">Distinctive Art Style: While no single style predominates, anime often features shared visual attributes such as characters with large, expressive eyes, varied hair colors and styles, and a focus on detailed backgrounds and cinematic camera effects (panning, zooming, angle shots).
-Diverse Genres and Demographics: Anime is not a single genre but a medium that covers virtually any topic. It is often classified by its target audience, including:
-Kodomo: Aimed at young children (e.g., Pokémon).
-Shōnen: Targeted at pre-teen and teenage boys, typically featuring action and adventure (e.g., One Piece, Dragon Ball Z, Naruto).
-Shōjo: Targeted at pre-teen and teenage girls, often focusing on romance and drama (e.g., Sailor Moon).
-Seinen: Aimed at young men, exploring more mature themes (e.g., Akira, Monster).
-Josei: Targeted at young women.</P></samp></samp>
-<p style="font-size: large;"> <samp style="color: chocolate;"><samp style="font-family: 'Times New Roman', Times, serif;">Adult: May contain complex plots, mature themes, or explicit content (hentai).
-Storytelling Depth: Compared to much Western animation (which is often primarily for children), anime frequently features complex narratives, deep character development, and a wide emotional and thematic range.
-Production Methods: Anime production often employs "limited animation" techniques to manage costs and deadlines, emphasizing art quality, detailed settings, and emotional expression over constant, fluid movement.
-Global Influence: The medium has a massive global fanbase and has become a multi-billion dollar industry. It influences fashion, art, and popular culture worldwide, with major production studios including Studio Ghibli, MAPPA, and Toei Animation.
-Connection to Manga: Many anime are adaptations of Japanese comic books called manga. Manga often serves as the source material, and the two forms of media are deeply interconnected.
-</samp></p></samp>
-<h1 style="color: rgb(255, 0, 0);"><center>うちは(UCHIHA)</center></h1>
- <p id="message">hello</p>
-    <center><button onclick="wakeUp()">うちは マダラ </button></center>
-<center><img src="C:\Users\ADMIN\Downloads\madra uchiha.jpg" alt="" sizes="" srcset=""></center>
-    <script>
-      function wakeUp() {
-        
-        var textElement = document.getElementById("message");
-        
-        
-        textElement.innerHTML = "Wake up to Reality! Nothing ever goes as planned in this accursed world.The longer you live, the more you will realize, that the only things that truly exist in this reality are merely pain, suffering and futility.Listen...Everywhere you look in this world, wherever there is light, there will always be shadows to be found as well. As long as there is a concept of victors, the vanquished will also exist.The selfish intent of wanting to preserve peace, initiates wars.And Hatred is born in order to protect Love.There are nexuses, causal relationships that cannot be separated.I want to sever the fate of this world.A world of only Victors.A world of only Peace.A world of only Love.";
-        
-       
-        textElement.style.color = "violet";
-        
-        
-        var x = 10000;
-        var y = 8;
-        alert("Calculated Value: " + (x*y));
-      }
-    </script>
-    
-    <p>This is a completely separate page!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime World - Enhanced</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-   <p id="message">hello</p>
-   <center><button onclick="uchiha()">うちは イタチ</button></center>
-<center><img src="C:\Users\ADMIN\Downloads\itachi.jpg" width="300" height="600"></center>
-<script>
-      function uchiha() {
-        var textElement = document.getElementById("message");
+        body {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a0033 50%, #0a0a0a 100%);
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
 
-        textElement.innerHTML = "Time doesn't heal anything, it just teaches us how to live with pain.People's lives don't end when they die. I won’t put myself above you and tell you this and that, it’s too late. So this time, for once, let me tell you one small truth. It’s all right if you never forgive me, but no matter what you become, I will always love you.It ends when they lose faith.Those who cannot acknowledge their true self eventually fail.No matter how powerful you become, do not try to shoulder everything alone.People live their lives bound by what they accept as correct and true. That’s how they define ‘reality’. But what does it mean to be ‘correct’ or ‘true’? Merely vague concepts.Everyone lives within their own subjective interpretation.";
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-        textElement.style.color = "red";
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: rgba(124, 2, 246, 0.1);
+            border-radius: 15px;
+            margin-bottom: 40px;
+            box-shadow: 0 0 30px rgba(124, 2, 246, 0.3);
+        }
 
-         var x = 10;
-        var y = 4;
-        alert("Calculated Value: " + (x+y));
-       
-      }
-</script>
-   <a href="index.html">next</a>
-    <a href="index.html">Go Back</a> 
-   <nav>
-    <a href="index.html">Home</a> 
-    <a href="about.html">About</a> 
-    <a href="contact.html">Contact</a>
-</nav>
-    </body>
+        h1 {
+            color: #7c02f6;
+            font-size: 3em;
+            text-shadow: 0 0 20px rgba(124, 2, 246, 0.8);
+            margin-bottom: 10px;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 20px rgba(124, 2, 246, 0.8); }
+            to { text-shadow: 0 0 40px rgba(124, 2, 246, 1); }
+        }
+
+        .subtitle {
+            color: #7100db;
+            font-size: 2em;
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .intro-section {
+            background: rgba(220, 109, 12, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 40px;
+            border: 2px solid rgba(220, 109, 12, 0.3);
+        }
+
+        .intro-section p {
+            color: rgba(220, 109, 12, 0.9);
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        .character-section {
+            margin: 60px 0;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s ease;
+        }
+
+        .character-section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 40px rgba(124, 2, 246, 0.3);
+        }
+
+        .character-title {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+
+        .madara-title {
+            color: #ff0000;
+        }
+
+        .itachi-title {
+            color: #ff6b6b;
+        }
+
+        .character-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .character-image {
+            width: 100%;
+            max-width: 400px;
+            height: 500px;
+            object-fit: cover;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+        }
+
+        .character-image:hover {
+            transform: scale(1.05);
+        }
+
+        .quote-box {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 25px;
+            border-radius: 15px;
+            border-left: 5px solid;
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .quote-box.show {
+            display: block;
+        }
+
+        .madara-quote {
+            border-left-color: #ff0000;
+            color: #ee82ee;
+        }
+
+        .itachi-quote {
+            border-left-color: #ff6b6b;
+            color: #ff6b6b;
+        }
+
+        button {
+            background: linear-gradient(135deg, #7c02f6, #ff0000);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.2em;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(124, 2, 246, 0.4);
+            font-weight: bold;
+        }
+
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(124, 2, 246, 0.6);
+        }
+
+        button:active {
+            transform: translateY(-1px);
+        }
+
+        nav {
+            text-align: center;
+            padding: 30px;
+            background: rgba(124, 2, 246, 0.1);
+            border-radius: 15px;
+            margin-top: 60px;
+        }
+
+        nav a {
+            color: #7c02f6;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            border: 2px solid transparent;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            border-color: #7c02f6;
+            background: rgba(124, 2, 246, 0.2);
+        }
+
+        .calculation-result {
+            display: inline-block;
+            background: rgba(124, 2, 246, 0.2);
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2em; }
+            .subtitle { font-size: 1.5em; }
+            .character-title { font-size: 1.8em; }
+            button { padding: 12px 30px; font-size: 1em; }
+        }
+    </style>
 </head>
+<body>
+    <div class="container">
+        <header>
+            <h1>HELLO ANIME</h1>
+            <p style="color: #7c02f6; font-size: 1.2em;">Welcome to the Anime World</p>
+        </header>
+
+        <h2 class="subtitle">ANIME</h2>
+
+        <div class="intro-section">
+            <p>Anime is animation that originates from Japan. Outside of Japan, the word "anime" typically refers to Japanese animation specifically, while in Japan, the term (a shortening of the English word "animation") refers to all animated works, regardless of origin. Anime is a diverse medium encompassing a wide range of genres, styles, and target audiences, from children to adults.</p>
+            
+            <h3 style="color: rgba(220, 109, 12, 0.9); margin-top: 20px;">Key Aspects of Anime</h3>
+            
+            <p><strong>Distinctive Art Style:</strong> While no single style predominates, anime often features shared visual attributes such as characters with large, expressive eyes, varied hair colors and styles, and a focus on detailed backgrounds and cinematic camera effects.</p>
+            
+            <p><strong>Diverse Genres and Demographics:</strong> Anime covers virtually any topic and is often classified by its target audience, including Kodomo (young children), Shōnen (pre-teen and teenage boys), Shōjo (pre-teen and teenage girls), Seinen (young men), and Josei (young women).</p>
+            
+            <p><strong>Storytelling Depth:</strong> Compared to much Western animation, anime frequently features complex narratives, deep character development, and a wide emotional and thematic range.</p>
+            
+            <p><strong>Global Influence:</strong> The medium has a massive global fanbase and has become a multi-billion dollar industry, influencing fashion, art, and popular culture worldwide.</p>
+        </div>
+
+        <!-- Madara Uchiha Section -->
+        <div class="character-section">
+            <h2 class="character-title madara-title">うちは マダラ (Uchiha Madara)</h2>
+            <div class="character-content">
+                <img src="https://i.pinimg.com/originals/18/b8/4e/18b84e95ecd7bb603c215db55012a575.jpg" 
+                     alt="Madara Uchiha" 
+                     class="character-image">
+                <button onclick="wakeUp()">Reveal Madara's Philosophy</button>
+                <div id="madara-quote" class="quote-box madara-quote"></div>
+            </div>
+        </div>
+
+        <!-- Itachi Uchiha Section -->
+        <div class="character-section">
+            <h2 class="character-title itachi-title">うちは イタチ (Uchiha Itachi)</h2>
+            <div class="character-content">
+                <img src="https://i.pinimg.com/originals/d3/29/5c/d3295c0c7f9aa3c88e6e59f77e790f31.jpg" 
+                     alt="Itachi Uchiha" 
+                     class="character-image">
+                <button onclick="revealItachi()">Reveal Itachi's Wisdom</button>
+                <div id="itachi-quote" class="quote-box itachi-quote"></div>
+            </div>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+
+    <script>
+        function wakeUp() {
+            const quoteElement = document.getElementById("madara-quote");
+            const quote = "Wake up to Reality! Nothing ever goes as planned in this accursed world. The longer you live, the more you will realize, that the only things that truly exist in this reality are merely pain, suffering and futility. Listen... Everywhere you look in this world, wherever there is light, there will always be shadows to be found as well. As long as there is a concept of victors, the vanquished will also exist. The selfish intent of wanting to preserve peace, initiates wars. And Hatred is born in order to protect Love. There are nexuses, causal relationships that cannot be separated. I want to sever the fate of this world. A world of only Victors. A world of only Peace. A world of only Love.";
+            
+            quoteElement.innerHTML = `<p>${quote}</p><p class="calculation-result">Power Level: ${10000 * 8} = 80,000</p>`;
+            quoteElement.classList.add('show');
+            
+            // Smooth scroll to quote
+            quoteElement.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+
+        function revealItachi() {
+            const quoteElement = document.getElementById("itachi-quote");
+            const quote = "Time doesn't heal anything, it just teaches us how to live with pain. People's lives don't end when they die. I won't put myself above you and tell you this and that, it's too late. So this time, for once, let me tell you one small truth. It's all right if you never forgive me, but no matter what you become, I will always love you. It ends when they lose faith. Those who cannot acknowledge their true self eventually fail. No matter how powerful you become, do not try to shoulder everything alone. People live their lives bound by what they accept as correct and true. That's how they define 'reality'. But what does it mean to be 'correct' or 'true'? Merely vague concepts. Everyone lives within their own subjective interpretation.";
+            
+            quoteElement.innerHTML = `<p>${quote}</p><p class="calculation-result">Wisdom Level: ${10 + 4} = 14</p>`;
+            quoteElement.classList.add('show');
+            
+            // Smooth scroll to quote
+            quoteElement.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+    </script>
+</body>
 </html>
